@@ -1,7 +1,7 @@
-+++
-date = '2025-04-04T19:20:16-04:00'
-title = 'My First Post'
-+++
+---
+date: '2025-04-04T19:20:16-04:00'
+title: 'My First Post'
+---
 
 ## Introduction
 
