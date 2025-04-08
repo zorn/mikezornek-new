@@ -1,6 +1,6 @@
 baseURL: "https://example.org/"
 languageCode: "en-us"
-title: "My New Hugo Site"
+title: "Mike Zornek"
 theme: "reborn"
 build:
   buildStats:
