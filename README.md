@@ -5,6 +5,17 @@ This repo is a stage to get a modern version of Hugo with Tailwind working for M
 - [ ] Consider using asdf for Hugo version alignment.
 - [ ] Consider options: https://gohugo.io/functions/css/tailwindcss/#options
 
+## Goals
+
+- Modern Hugo
+- Tailwind 4.1
+- More visual site, added textures, color, animations, gradients
+- Add search
+- Avoid Google fonts.
+- More modern photos of me?
+- Improve web load speeds
+- dark mode
+
 ## Requirements
 
 - This is a Hugo site and as such you need to install Hugo.
