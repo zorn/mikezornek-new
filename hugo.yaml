@@ -2,6 +2,30 @@ baseURL: "https://example.org/"
 languageCode: "en-us"
 title: "Mike Zornek"
 theme: "reborn"
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 10
+    - name: Blog
+      url: /posts/
+      weight: 20
+    - name: Elixir Consulting
+      url: /elixir-consulting/
+      weight: 25
+    - name: Values
+      url: /values/
+      weight: 50
+    - name: Follow
+      url: /follow/
+      weight: 55
+    - name: Now
+      url: /now/
+      weight: 59
+    - name: Contact
+      url: /contact/
+      weight: 60
+
 build:
   buildStats:
     enable: true
