@@ -1,2 +1,29 @@
-<h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<header>
+
+    {{/* Purple horizontal row. */}}
+    <div class="bg-purple-600 py-4">
+        {{/* Container for the header content. */}}
+        <div class="max-w-screen-lg mx-auto text-white text-shadow-lg/30">
+            <h1 class="font-[Ubuntu] text-6xl font-bold">{{ site.Title }}</h1>
+        </div>
+    </div>
+
+    {{/* Transparent horizontal row. */}}
+    <div class="max-w-screen-lg mx-auto">
+        {{ $currentSectionHighlight := .Params.sectionHighlight }}
+        {{ with .Site.Menus.main }}
+        <nav>
+            <div class="content-row">
+                <ol class="list-none my-4">
+                    {{ range . }}
+                    <li class="inline font-[Ubuntu] text-2xl font-bold pr-4">
+                        <a class="{{ if (eq .Name $currentSectionHighlight) }}border-b-8 border-purple-700 pb-2{{ end }}"href="{{ .URL | relURL }}">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                </ol>
+            </div>
+        </nav>
+        {{ end }}
+    </div>
+
+</header>
