@@ -2,6 +2,12 @@ baseURL: "https://example.org/"
 languageCode: "en-us"
 title: "Mike Zornek"
 theme: "reborn"
+markup:
+  goldmark:
+    extensions:
+      typographer: true
+    renderer:
+      unsafe: true
 mainSections:
   - posts
 menu:
