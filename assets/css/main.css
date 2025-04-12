@@ -2,6 +2,7 @@
 not the site. I've been unable to host them in the `themes` folder so far. */
 
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 @source "hugo_stats.json";
 
 /* Download fonts: https://gwfh.mranftl.com/fonts/ubuntu?subsets=latin */
