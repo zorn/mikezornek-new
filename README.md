@@ -4,6 +4,13 @@ This repo is a stage to get a modern version of Hugo with Tailwind working for M
 
 - [ ] Consider using asdf for Hugo version alignment.
 - [ ] Consider options: https://gohugo.io/functions/css/tailwindcss/#options
+- [ ] Copy over rest of content, make sure nothing is outright broken (but happy to fix things in main repo).
+- [ ] Make sure RSS feed works when migrating.
+- [ ] Make sure web stats are working.
+
+Post repo merge todo:
+
+- [ ] Reenable search
 
 ## Goals
 
