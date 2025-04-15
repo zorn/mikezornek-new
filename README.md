@@ -1,3 +1,5 @@
+UPDATE: The migration of this sandbox work into the main repo is complete. All future changes will be done at: https://github.com/zorn/mikezornek.com
+
 This repo is a stage to get a modern version of Hugo with Tailwind working for MikeZornek.com. I'll work here and then eventually update the main repo.
 
 ## TODO
